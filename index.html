@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UACompatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENÚ ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Andrés</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/fotoredonda.png" alt="">
+            </div>
+            <h1>Andrés Jiménez Sáez</h1>
+            <h2>Desarrollador web - Full stack</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-codepen"></i></a>
+                <a href="#"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola soy Andrés Jiménez.</span> Soy una persona comunicativa, amable y capaz de adaptarse a cada situación. Busco la oportunidad laboral para desarrollar una carrera profesional. En mis empleos anteriores siempre he destacado por mi buena gestión resolutiva y mi capacidad de aprender rápidamente.</p>
+
+            <div class="fila">
+                <!-- DATOS PERSONALES -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            25-11-1996
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +34 635 162 397
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            andresksrjimenezsaez@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.codepen.io/your-work
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Barcelona
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>COCHES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- TECNICA SKILLS -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>82%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Cobol</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- PROFESIONAL SKILLS -->
+            <div class="col">
+                <h3>Profesional Skills</h3>
+                <div class="skill">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                             <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Dedicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Proyect Management</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>JavaScript</h4>
+                            <span class="casa">Udemy</span>
+                            <span class="fecha">2024 - 2024</span>
+                            <p>Fundamentos (variables, funciones y operadores), manejo del DOM. Control de flujo y estructuras de datos (arrays, objetos). 26,5 horas.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>HTML & CSS</h4>
+                            <span class="casa">Udemy</span>
+                            <span class="fecha">2024 - 2024</span>
+                            <p>Proyectos y aprendizaje con HTML, HTML5, CSS y un conjunto con Python y JavaScript. 25,5 horas.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Python</h4>
+                            <span class="casa">Udemy</span>
+                            <span class="fecha">2024 - 2024</span>
+                            <p>Manejo de bases de datos y desarrollo de aplicaciones web (Django).Desarrollo de aplicaciones. Estructura de datos (listas, diccionarios). 25,5 horas.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col derecha">
+                        <h3>Experiencia Laboral</h3>
+                        <div class="item der">
+                        <h4>Desarrollador Web</h4>
+                        <span class="casa">Programador independiente</span>
+                        <span class="fecha">2024 - 2024</span>
+                        <p>Proyectos independientes mediante el uso de: Python, JavaScript, HTML, CSS, Cobol.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Barbero</h4>
+                        <span class="casa">Ukiyo Barber</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Fundador de Ukiyo Barber. Estilista y asesor de imagen por el cuidado cabello / barba del cliente. Adminitración y gestión de productos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Administrativo y ventas</h4>
+                        <span class="casa">Volkswagen</span>
+                        <span class="fecha">2018 - 2019</span>
+                        <p>Adminitración y ventas en el sector de la automoción, atendiendo a clientes para asesorarlos en la compra de vehículos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+     <section id="contacto" class="contacto">
+        <div class="contacto-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- FORMULARIO -->
+                <div class="col">
+                    <input type="text" placeholder="Tú nombre">
+                    <input type="text" placeholder="Número teléfono">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea> 
+                    <button>
+                        Enviar Mensaje  <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- FOOTER -->
+      <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-codepen"></i></a>
+            <a href="#"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </footer>
+      
+      <script src="script.js"></script>
+</body>
+</html>
